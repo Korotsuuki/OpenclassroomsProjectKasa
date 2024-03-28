@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import arrow from "../assets/arrow.svg"
 import PropTypes from "prop-types"
 import "../sass/collapsis.scss"
 
@@ -13,7 +14,7 @@ function Collapsis({title,children}) {
     <div className="headColapsis" onClick={handleToggle}>
       <h3>{title}</h3>
       <img
-        src="arrow.svg"
+        src={arrow}
         alt="flèche"
         className={`arrow ${isVisible ? "down" : ""}`}
       />
