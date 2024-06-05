@@ -4,6 +4,6 @@ import process from "process"
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === "production" ? "/kasa/" : "/",
+  base: process.env.NODE_ENV === "production" ? "/OpenclassroomsProjectKasa/" : "/",
   plugins: [react()],
 })

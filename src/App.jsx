@@ -9,7 +9,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 
 function App() {
-  const basename = import.meta.env.MODE === "production" ? "/kasa" : "";
+  const basename = import.meta.env.MODE === "production" ? "/OpenclassroomsProjectKasa" : "";
   return (
     <BrowserRouter basename={basename}>
       <Header />
